@@ -1,0 +1,809 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/*
+==============================
+==============================
+GLOBAL RESET
+==============================
+==============================
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*
+==============================
+==============================
+BODY STYLES
+==============================
+==============================
+*/
+
+body {
+  min-height: 100vh;
+  margin: 0;
+}
+
+
+/*
+==============================
+==============================
+SECTION 1 STYLES
+==============================
+==============================
+*/
+
+
+.page_1 {
+  position: relative;
+  background-image: url("../asset/images/dotted_Rectangle_background\ .png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 100vh;
+  box-sizing: border-box;
+  overflow: hidden;
+  margin: 0;
+  padding-bottom: 200px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px;
+  margin-top: -30px;
+  margin-bottom: 50px;
+}
+
+.left_group {
+  display: flex;
+  align-items: center;
+  gap: 0px; 
+}
+
+.nav_links {
+  display: flex;
+  gap: 2px; 
+}
+
+
+.logo {
+  height: 170px;
+  width: 253px;
+}
+
+
+a {
+  text-decoration: none;
+  color: #000000;
+  font-weight: 500;
+  padding: 5px 10px;
+  transition: all 0.3s ease;
+}
+a:hover{
+  transform: scale(1.07);
+  
+}
+.font{
+    font-size: 20px;
+    font-weight: 600;
+    padding: 1px 12px;
+}
+
+.arrow_down{
+    height: 20px;
+    width: 20px; 
+    margin-top: 7px;
+    margin-left: -20px; 
+}
+
+.auth_button {
+  display: flex;
+  gap: 13px;
+  margin-right: 10px;
+}
+
+.logIn  {
+  text-align: center;
+  padding: 8px 40px;
+  height: 60px;
+  border-radius: 20px;
+  background-color: #CBFFD0;
+  align-content: center;
+  color: black;
+ box-shadow: 1px 2px 1px rgb(142, 112, 112);
+  cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.logIn:hover{
+  background-color: #99f9a3;
+  transform: scale(1.07);
+  
+}
+.signUp{
+   background-color:#26A69A ; 
+     text-align: center;
+  padding: 8px 30px;
+  height: 60px;
+  border-radius: 20px;
+   color: black;
+   align-content: center;
+   box-shadow: 1px 2px 1px rgb(142, 112, 112);
+  cursor: pointer;
+   transition: all 0.3s ease;
+}
+.signUp:hover {
+  background-color: #10756b;
+  transform: scale(1.05); 
+}
+
+
+.first_container_content {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.first_container_content_1{
+ flex: 1;
+ display: flex;
+ flex-direction: column;
+  min-width: 300px;
+  align-items: start;
+  position: relative; 
+  margin-top: 80px;
+  margin-left: 50px; 
+}
+
+.first_container_content_2 {
+  flex: 1;
+  min-width: 300px;
+  position: relative;
+}
+
+.Laptop_phone {
+  position: absolute;
+  right: 30px;
+  width: 570px;
+  top: -15px;
+ 
+}
+
+.bottom_right_semi_Rectangle_small_lg {
+  position: absolute;
+  right: 0;
+  top: 20px;
+  width: 390px;
+}
+.Laptop_phone_semi_rec_height{
+   height: 710px;
+   max-width: 100%;
+}
+
+
+h1{
+    font-size: 60px;
+    font-weight: 800;
+    
+}
+p{
+    font-size: 28px;
+    font-weight: 100px;
+}
+
+.short_statement{
+    margin-top: 15px;
+}
+
+.actions{
+    display: flex;
+    justify-items:start;
+    justify-content: start;
+    align-items: start;
+}
+
+.download_icons{
+    margin-top: 70px;
+    height: 55px;
+  transition: all 0.3s ease;
+}
+.download_icons:hover {
+  transform: scale(1.05); 
+}
+
+
+/*
+==============================
+==============================
+SECTION 2 STYLES
+==============================
+==============================
+*/
+
+
+.page_2 {
+  position: relative;
+  background-image: url("../asset/images//plain_Rectangle_background.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 100vh;
+  box-sizing: border-box;
+  overflow: hidden;
+  margin: 0;
+  padding-bottom: 100px;
+  display: flex;
+  flex-direction: row;
+ box-shadow: 20px 20px 20px 20px rgb(21, 20, 20);
+}
+
+.page_2_first_container_content{
+    display: flex;
+    flex: 1;
+    position: relative;
+    flex-direction: row;
+}
+
+.page_2_first_container_content_img1{
+    width: 300px;
+}
+.img_h{
+    height: 550px;
+    max-width: 110%;
+}
+.phone_in_hand1{
+  height: 447px;
+  width: 105%;
+}
+.page_2_first_container_content_img2{
+    position: absolute;
+    top: 120px;
+    width: 360px;
+}
+
+
+.page_2_first_container_content2{
+flex: 2;
+display: flex;
+flex-direction: column;
+margin-left: 150px;
+padding-top: 30px;
+
+}
+
+.page_2_header{
+    flex: 1;
+    text-align: start;
+    font-size: 48px;
+    font-weight: 700; 
+}
+
+.card_grid_1{
+    display: flex;
+    flex-direction: row;
+    gap: 170px;
+    margin-bottom: 100px;
+}
+.card_container{
+    flex: 2;
+    margin-top: 50px;
+
+
+}
+.card_1{
+      width: 230px;
+  height: 280px;
+  background-color: #CBFFD0 ;
+  border-radius: 27px;
+  padding: 8px 16px;
+  transition: all 0.3s ease;
+}
+.card_1:hover {
+  transform: scale(1.05); 
+}
+
+.card_h3{
+    font-weight: 700px;
+    font-size: 23px;
+}
+
+.card_p{
+    font-weight: 500px;
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+.card_img{
+    height: 70px;
+    width: 70px;
+}
+
+.card_grid_2{
+    display: flex;
+    flex-direction: row;
+    gap: 170px;
+   
+}
+
+.card_2{
+      width: 230px;
+  height: 280px;
+  background-color: #26A69A ;
+  border-radius: 27px;
+  padding: 8px 16px;
+  transition: all 0.3s ease;
+}
+.card_2:hover {
+  transform: scale(1.05); 
+}
+
+
+
+/*
+==============================
+==============================
+SECTION 3 STYLES
+==============================
+==============================
+*/
+
+
+.page_3{
+  position: relative;
+  background-image: url("../asset/images//dotted_Rectangle_background\ .png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 100vh;
+  box-sizing: border-box;
+  overflow: hidden;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px 0px 20px 0px rgb(21, 20, 20);
+}
+
+
+.page_3_first_container_content1{
+display: flex;
+justify-content: center;
+padding-top: 30px;
+margin-top: 50px;
+
+}
+
+.page_3_header{
+    justify-content: center;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700; 
+}
+
+.how_it_work_Procedure1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-top: 60px;
+}
+.how_it_work_Procedure_card_1{
+    padding: 8px 35px ;
+    align-items: center;
+    justify-items: center;
+    background-color: #CBFFD0;
+    border-radius: 16px;
+     text-align: center;
+}
+.card_p_2{
+    font-weight: 600px;
+    font-size: 24px;
+    padding: 6px 16px;
+}
+
+.how_it_work_Procedure2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 135px;
+    padding-right: 135px;
+    margin-top: 90px;
+}
+.how_it_work_Procedure_card_2{
+    padding: 8px 25px ;
+    align-items: center;
+    justify-items: center;
+    background-color: #26A69A;
+    border-radius: 16px;
+     text-align: center;
+}
+
+.page_3_image_container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-top: -200px;
+  
+}
+
+.page_3img {
+  max-width: 100%;
+  height: 550px;
+}
+
+.curvy_angle{
+    position: relative;
+    top: 280px;
+}
+.phone_in_hand2{
+    position: absolute;
+    top: 220px;
+    right: 410px;
+}
+
+
+
+/*
+==============================
+==============================
+SECTION 4 STYLES
+==============================
+==============================
+*/
+
+
+.page_4{
+  position: relative;
+  background-image: url("../asset/images/plain_Rectangle_background.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 100vh;
+  box-sizing: border-box;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+padding-bottom: 200px;
+
+  box-shadow: 0px 0px 20px 0px rgb(21, 20, 20);
+}
+
+.page_4_sec1{
+      display: flex;
+  flex-direction: row ;
+}
+
+
+
+.page_4_first_container_content1{
+display: flex;
+justify-content: center;
+padding-top: 30px;
+margin-top: 50px;
+flex: 2;
+
+}
+
+.page_4_header{
+    justify-content: center;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+    margin-left: -340px; 
+}
+.page_4_first_container_content{
+    flex: 1;
+}
+
+
+.page_4_first_container_content_img1{ 
+    height: 470px;
+    width: 300px;
+    flex: 3;
+}
+
+.card_container2{
+    flex: 2;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.card_3{
+      width: 350px;
+  height: 400px;
+  background-color: #CBFFD0 ;
+  border-radius: 27px;
+  padding: 8px 16px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+   transition: all 0.3s ease;
+   position: relative;
+   z-index: 1;
+}
+.card_3:hover {
+  z-index: 10;
+  transform: scale(1.05);
+}
+.person_img1{
+    height: 100px;
+    width: 100px;
+}
+.card_img_4_stars{
+   height: 30px;
+    width: 100px;  
+}
+.card_p_3{
+    justify-content: center;
+    text-align: center;
+}
+
+.font1{
+    font-weight: 500;
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+.bold_text1{
+    font-weight: 600;
+     font-size: 28px;
+    
+}
+
+
+.font2{
+    font-weight: 500;
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+.bold_text{
+    font-weight: 600;
+     font-size: 36px;
+    
+}
+.medium_cards{
+    gap: 280px;
+    display: flex;
+    flex-direction: row;
+    margin-top: -180px;
+    
+}
+.card_img_3_stars{
+   height: 30px;
+    width: 70x;  
+}
+
+.card_4{
+      width: 400px;
+  height: 500px;
+  background-color: #26A69A ;
+  border-radius: 27px;
+  position: absolute;
+  padding: 8px 16px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  right: 450px;
+  top:-235px;
+  z-index: 5;
+   transition: all 0.3s ease;
+}
+.card_4:hover {
+  transform: scale(1.05); 
+}
+
+.card_img_5_stars{
+   height: 30px;
+    width: 100x;  
+}
+.page_4_sec2{
+    position: absolute;
+    bottom: -200px;
+   left: 900px;
+   width:400px;
+   
+    
+}
+
+.page_4_first_container_content_img2{ 
+    height:550px; 
+}
+
+
+/*
+==============================
+==============================
+SECTION 5 STYLES
+==============================
+==============================
+*/
+
+.page_5{
+  position: relative;
+  background-image: url("../asset/images/dotted_Rectangle_background\ .png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 100vh;
+  box-sizing: border-box;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  padding-bottom: 100px;
+  box-shadow: 0px 0px 20px 0px rgb(21, 20, 20);
+}
+
+.page_5_first_container_content{
+    flex: 1;
+  
+}
+.page_5_content_1{
+display: flex;
+justify-content: start;
+padding-top: 30px;
+margin-top: 50px;
+flex-direction: column;
+margin-left: 20px;
+}
+.page_5img {
+  max-width: 100%;
+  height: 550px;
+}
+.page_5_second_container_content{
+flex: 2;
+}
+.page_5_header{
+     justify-content: center;
+    text-align: start;
+    font-size: 48px;
+    font-weight: 700;
+     
+}
+
+.page_5_card{
+  width: 700px;
+  height: 420px;
+  background-color: #26A69A ;
+  border-radius: 27px;
+  padding: 8px 16px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 100px;
+}
+
+.page_5_card_element{
+    background-color: #CBFFD0;
+    border-radius: 16px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 650px;
+    padding: 8px 16px;
+    align-items: center;
+    margin-bottom:20px ;
+    transition: all 0.3s ease;
+}
+.page_5_card_element:hover {
+  transform: scale(1.05); 
+}
+.page_5_p_elements{
+    font-weight: 500;
+    font-size: 34px;
+}
+
+.arrow_down_2{
+    height: 50px;
+    width: 50px;
+}
+
+
+/*
+==============================
+==============================
+SECTION 6 STYLES
+==============================
+==============================
+*/
+
+.page_6{
+  position: relative;
+ background-color: #26A69A ;
+  min-height: 100vh;
+  box-sizing: border-box;
+  overflow: hidden;
+  justify-items: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0%;  
+}
+
+.logo_inverted{
+ height: 170px;
+  width: 253px;
+  margin-top: 10px;
+  margin-left: 40px;
+  margin-bottom: -35px;
+   filter: brightness(0) invert(1);
+}
+.page_6_p{
+  color: white;
+  font-weight: 600;
+  margin-bottom: 15px;
+  font-size: 43px;
+}
+.platforms{
+  display: flex;
+  flex-direction: row;
+  gap: 55px;
+  align-items: center;
+  margin-top: 30px;
+}
+.platforms_logo{
+  height: 65px;
+  width: 65px;
+  transition: all 0.3s ease;
+}
+.platforms_logo:hover {
+  transform: scale(1.07); 
+}
+
+.platforms_logo_2{
+  height: 70px;
+  width: 73px;
+  transition: all 0.3s ease;
+}
+.platforms_logo_2:hover {
+  transform: scale(1.07); 
+}
+.platforms_logo_3{
+  height: 59px;
+  width: 63px;
+   transition: all 0.3s ease;
+}
+.platforms_logo_3:hover {
+  transform: scale(1.07); 
+}
+.action_btn_2{
+  margin-top: 35px;
+  width: 500px;
+  height: 65px;
+  transition: all 0.3s ease;
+}
+.action_btn_2:hover {
+  transform: scale(1.05); 
+}
+.contact_support{
+   margin-top: 50px;
+  width: 380px;
+  height: 67px;
+}
+
+.quick_links{
+  display: flex;
+  flex-direction: row;
+ gap: 170px;
+ margin-top: 43px;
+}
+
+.quick_links_p{
+  color: white;
+  font-size: 40px;
+  font-weight: 500;
+   transition: all 0.3s ease;
+}
+.quick_links_p:hover {
+  transform: scale(1.05); 
+}
